@@ -1,0 +1,37 @@
+
+*{
+    font-size: 13px;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 42.3px;    
+    background-color:rgba(29,29,31, 0.9);
+    backdrop-filter: blur(5px);
+    z-index: 3;
+}
+
+
+ul{
+    justify-content: space-between;
+    width: 68%;    
+    display: flex;
+    margin: auto;
+}
+
+.nav-item{
+    list-style: none;
+
+
+}
+
+
+.nav-link{
+    color: #E1E1E6;
+    height: 44px;
+    padding: 12px;
+    
+}
