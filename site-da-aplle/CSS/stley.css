@@ -30,8 +30,57 @@ ul{
 
 
 .nav-link{
-    color: #E1E1E6;
+    color: #f7f7f7b2;
     height: 44px;
     padding: 12px;
     
+}
+
+.section-content{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    background-color: #f3f3f3;
+
+}
+
+.section-content-shop{
+    padding: 12px;
+    font-size: 14px;
+
+} 
+
+.section-content-shop-link{
+    text-decoration: none;
+    font-size: 14px;
+
+
+}
+
+.unit-link-ct1{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/iphone_12_apple_site.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 88px;
+    
+}
+
+.unit-link-title{
+    color: #0f0f0ffa;
+    font-weight: 570;
+    
+}
+
+#text{
+    font-size: 55px;
+
+}
+
+#phrase{
+    font-size: 26px;
+
+
 }
