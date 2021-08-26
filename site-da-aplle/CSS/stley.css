@@ -12,12 +12,13 @@ header{
     background-color:rgba(29,29,31, 0.9);
     backdrop-filter: blur(5px);
     z-index: 3;
+    position: fixed;
 }
 
 
 ul{
     justify-content: space-between;
-    width: 68%;    
+    width: 66%;    
     display: flex;
     margin: auto;
 }
@@ -59,28 +60,92 @@ ul{
 
 .unit-link-ct1{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-image: url(../img/iphone_12_apple_site.jpg);
-    background-size: cover;
+    background-size: 2700px;
+    background-position: center top;
+    text-align: center;
+    padding-top: 88px;
+    
+    
+}
+
+.unit-link-title{
+    color: #0f0f0ffa;
+    font-weight: 550;
+    
+}
+
+#text{
+    font-size: 55px;
+   
+
+}
+
+#phrase{
+    font-size: 27px;
+
+
+}
+
+#link{
+    text-decoration: none;
+    font-size: 21px;
+    color: #0066ccfa;
+
+
+}
+
+#link:hover{
+    text-decoration:underline ;
+
+
+}
+
+.unit-link-ct2{
+    width:  100%;
+    height: 75vh;
+    background-image: url(../img/iphone_12_pro.jpg);
+    background-size: 3011px 624px;
     background-position: center;
     text-align: center;
     padding-top: 88px;
     
 }
 
-.unit-link-title{
-    color: #0f0f0ffa;
-    font-weight: 570;
-    
-}
 
-#text{
-    font-size: 55px;
+
+.unit-link-title2{
+    color:#f3f3f3;
+    font-weight: 550;
 
 }
 
-#phrase{
-    font-size: 26px;
+.unit-link-phrase2{
+    color:#f3f3f3;
+
+
+}
+
+.unit-link-ct3{
+    width:  100%;
+    height: 80vh;
+    background-image: url(../img/ipad_pro.jpg);
+    background-size: 3011px 624px;
+    background-position: center;
+    text-align: center;
+    padding-top: 88px;    
+    margin-top: 10px;
+}
+
+.unit-link-title3{
+    color: #f3f3f3;
+    font-weight: 550;
+
+}
+
+.unit-link-phrase3{
+    color: #f3f3f3;
 
 
 }
